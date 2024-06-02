@@ -1,0 +1,13 @@
+[
+    {
+        "title": "Artist's portfolio",
+        "name": "John",
+        "background_color": "",
+        "phone": "5558675309",
+        "email": "addYourEmail@email.email",
+        "store_link": "add store link",
+        "instagram": "https://instagram.com/xjmackey",
+        "location": "insert your address",
+        "portrait": "images/portrait.jpg"
+    }
+]

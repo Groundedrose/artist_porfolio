@@ -1,0 +1,37 @@
+[
+    {
+        "url": "images/image 1.png",
+        "title": "dandelions",
+        "description": "Abstract painting of dandelions"
+    },
+    {
+        "url": "images/image 2.png",
+        "title": "tree buds",
+        "description": "Abstract painting of budding flowers on a tree"
+    },
+    {
+        "url": "images/image 3.png",
+        "title": "partner",
+        "description": "Portrait in sharpie"
+    },
+    {
+        "url": "images/image 4.png",
+        "title": "bart",
+        "description": "Portrait of Bart Ehrman"
+    },
+    {
+        "url": "images/image 5.png",
+        "title": "dan",
+        "description": "Portrait of Dan Mcclellan"
+    },
+    {
+        "url": "images/image 6.png",
+        "title": "Cedric",
+        "description": "Painting of Cedrick"
+    },
+    {
+        "url": "images/image 7.png",
+        "title": "Francesca",
+        "description": "Portrait of Francesca Stavrakapoulou"
+    }
+]

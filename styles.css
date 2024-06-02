@@ -1,0 +1,38 @@
+img {
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+.header {
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    padding: 1vw 1vw 1vw 1vw;
+
+}
+
+#portrait {
+    height: 350px;
+}
+
+.gallery {
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+
+#gallery {
+    height: 100vh;
+}
