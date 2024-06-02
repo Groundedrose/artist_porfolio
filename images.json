@@ -33,5 +33,60 @@
         "url": "images/image 7.png",
         "title": "Francesca",
         "description": "Portrait of Francesca Stavrakapoulou"
+    },
+    {
+        "url": "images/image 8.png",
+        "title": "Luna",
+        "description": ""
+    },
+    {
+        "url": "images/image 9.png",
+        "title": "Josh",
+        "description": "Portrait of Josh Bowen"
+    },
+    {
+        "url": "images/image 10.png",
+        "title": "Stolas",
+        "description": ""
+    },
+    {
+        "url": "images/image 11.png",
+        "title": "Stella",
+        "description": ""
+    },
+    {
+        "url": "images/image 12.png",
+        "title": "Luna",
+        "description": ""
+    },
+    {
+        "url": "images/image 13.png",
+        "title": "Luna and Cedric",
+        "description": ""
+    },
+    {
+        "url": "images/image 14.png",
+        "title": "Luna",
+        "description": ""
+    },
+    {
+        "url": "images/image 15.png",
+        "title": "stolas",
+        "description": ""
+    },
+    {
+        "url": "images/image 16.png",
+        "title": "Juno",
+        "description": ""
+    },
+    {
+        "url": "images/image 17.png",
+        "title": "Practice",
+        "description": ""
+    },
+    {
+        "url": "images/image 18.png",
+        "title": "Self Portrait",
+        "description": ""
     }
 ]

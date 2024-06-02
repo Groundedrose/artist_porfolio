@@ -1,11 +1,11 @@
+set = 1;
 document.addEventListener("DOMContentLoaded", function () {
     fetch('images.json')
         .then(response => response.json())
         .then(images => {
             const gallery = document.getElementById("gallery");
             images.forEach((image, index) => {
-                const col = document.createElement("div");
-                col.className = "col-md-4";
+                const col = document.querySelector('.set-' + set)
                 const img = document.createElement("img");
                 const title = document.querySelector("#imageModalLabel");
                 const description = document.querySelector("#description");
@@ -16,12 +16,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 img.setAttribute("data-target", "#imageModal");
                 img.addEventListener("click", function () {
                     document.getElementById("modalImage").src = this.src;
-                    image.title ? title.innerHTML = image.title : '';
+                    image.title ? title.innerHTML = image.title : title.innerHTML = '';
 
-                    image.description ? description.innerHTML = image.description : '';
+                    image.description ? description.innerHTML = image.description : description.innerHTML = '';
                 });
                 col.appendChild(img);
-                gallery.appendChild(col);
+                set++;
+                if (set == 4) set = 1;
             });
         })
         .catch(error => console.error('Error fetching the image list:', error));
