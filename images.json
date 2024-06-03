@@ -10,39 +10,9 @@
         "description": "Abstract painting of budding flowers on a tree"
     },
     {
-        "url": "images/image 3.png",
-        "title": "partner",
-        "description": "Portrait in sharpie"
-    },
-    {
-        "url": "images/image 4.png",
-        "title": "bart",
-        "description": "Portrait of Bart Ehrman"
-    },
-    {
-        "url": "images/image 5.png",
-        "title": "dan",
-        "description": "Portrait of Dan Mcclellan"
-    },
-    {
-        "url": "images/image 6.png",
-        "title": "Cedric",
-        "description": "Painting of Cedrick"
-    },
-    {
-        "url": "images/image 7.png",
-        "title": "Francesca",
-        "description": "Portrait of Francesca Stavrakapoulou"
-    },
-    {
         "url": "images/image 8.png",
         "title": "Luna",
         "description": ""
-    },
-    {
-        "url": "images/image 9.png",
-        "title": "Josh",
-        "description": "Portrait of Josh Bowen"
     },
     {
         "url": "images/image 10.png",
@@ -52,11 +22,6 @@
     {
         "url": "images/image 11.png",
         "title": "Stella",
-        "description": ""
-    },
-    {
-        "url": "images/image 12.png",
-        "title": "Luna",
         "description": ""
     },
     {
@@ -77,16 +42,6 @@
     {
         "url": "images/image 16.png",
         "title": "Juno",
-        "description": ""
-    },
-    {
-        "url": "images/image 17.png",
-        "title": "Practice",
-        "description": ""
-    },
-    {
-        "url": "images/image 18.png",
-        "title": "Self Portrait",
         "description": ""
     }
 ]

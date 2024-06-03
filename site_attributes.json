@@ -1,14 +1,14 @@
 [
     {
         "title": "Artist's portfolio",
-        "name": "John",
+        "name": "Artist name",
         "background_color": "",
         "phone": "5558675309",
         "email": "addYourEmail@email.email",
         "store_link": "add store link",
-        "instagram": "https://instagram.com/xjmackey",
+        "instagram": "https://instagram.com",
         "location": "insert your address",
-        "portrait": "images/portrait.jpg",
-        "bio": "John is an artist and programmer from Salem, Massachusetts."
+        "portrait": "images/Group 399.png",
+        "bio": "Artist's bio to be added here"
     }
 ]
