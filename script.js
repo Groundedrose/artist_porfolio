@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
             if (attributes[0].name) $('#name').text(attributes[0].name);
             if (attributes[0].background_color) $('.header').css('background-color', attributes[0].background_color);
             if (attributes[0].portrait) $('#portrait').attr('src', attributes[0].portrait);
-
+            if (attributes[0].bio) $('#bio').text(attributes[0].bio);
         })
         .catch(error => console.error('Error fetching the attributes list:', error));
 });

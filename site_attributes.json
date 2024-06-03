@@ -8,6 +8,7 @@
         "store_link": "add store link",
         "instagram": "https://instagram.com/xjmackey",
         "location": "insert your address",
-        "portrait": "images/portrait.jpg"
+        "portrait": "images/portrait.jpg",
+        "bio": "John is an artist and programmer from Salem, Massachusetts."
     }
 ]
