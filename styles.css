@@ -67,3 +67,18 @@ body {
 #bio {
     max-width: 250px;
 }
+
+.modal-arrow {
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.arrow-right {
+    top: 50%;
+    left: 75%;
+}
+
+.arrow-left {
+    top: 50%;
+    left: 25%;
+}
