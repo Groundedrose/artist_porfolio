@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .catch(error => console.error('Error fetching the attributes list:', error));
 });
 
-$('.modal-arrow').on('click', function () {
+$('.modal-arrow').on('click', function change_direction() {
     const current_index = parseInt($('#modalImage').attr('data-num'));
     let direction = 0;
     $(this).hasClass('arrow-right') ? direction = 1 : direction = -1;
@@ -57,7 +57,6 @@ $('.modal-arrow').on('click', function () {
         .then(images => {
             images.forEach((image, index) => {
                 if (index == current_index + direction) {
-                    console.log(index);
                     $('#modalImage').attr('data-num', current_index + direction);
                     document.getElementById("modalImage").src = image.url;
                     image.title ? title.innerHTML = image.title : title.innerHTML = '';
@@ -68,3 +67,14 @@ $('.modal-arrow').on('click', function () {
         });
 
 })
+
+$(window).keyup(function (e) {
+    var key = e.which;
+    if (key == 13 || key == 39) { // the enter key code or right arrow
+        $('.next').click();
+        return false;
+    } else if (key == 37) { // left arrow
+        $('.prev').click();
+        return false;
+    }
+});
